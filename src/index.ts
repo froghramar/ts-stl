@@ -1,1 +1,1 @@
-export { hello } from './containers/stack';
+export { Vector } from './containers/vector';
