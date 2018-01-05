@@ -1,0 +1,27 @@
+{
+  "name": "ts-stl",
+  "version": "1.0.0",
+  "description": "Standard Template Library for TypeScript",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/froghramar/ts-stl.git"
+  },
+  "author": "Feroz Ahmmed <froghramar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/froghramar/ts-stl/issues"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.10",
+    "@types/mocha": "^2.2.46",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "ts-node": "^4.1.0"
+  },
+  "dependencies": {
+    "typescript": "^2.6.2"
+  }
+}
